@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;typedef long long ll;int main(){    int t;    cin >> t;    while(t--){        ll n,l,r;        cin>>n>>l>>r;        vector<ll> a(n+1,-1);        for(int i=0;i<=n;i++){            a[i]=i;        }        a[r]=a[l-1];        for(int i=0;i<n;i++){            cout<<(a[i]^a[i+1])<<" ";        }        cout<<endl;    }}
