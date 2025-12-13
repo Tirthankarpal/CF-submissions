@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;typedef long long ll;int main(){    ll t;    cin>>t;    while(t--){        ll n,k;        cin>>n>>k;        k--;        if(n%2==0){            ll mod=k%n;            ll cycle=k/n;            cout<<mod+1<<endl;        }        else{            ll val=n/2;            ll mod=(k+(k/val))%n;            cout<<mod+1<<endl;        }    }}
