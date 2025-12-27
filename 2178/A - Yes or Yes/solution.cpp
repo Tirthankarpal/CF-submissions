@@ -1,0 +1,1 @@
+#include<bits/stdc++.h>using namespace std;typedef long long ll;int main(){    ll t;    cin>>t;    while(t--){        string s;        cin>>s;        ll cnt=0;        for(int i=0;i<s.size();i++){            if(s[i]=='Y')cnt++;        }        if(cnt<2)cout<<"YES"<<endl;        else cout<<"NO"<<endl;    }}
