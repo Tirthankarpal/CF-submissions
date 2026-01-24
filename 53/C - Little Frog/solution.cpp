@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;typedef long long ll;int main(){    int t;    cin>>t;    int i=1;    int j=t;    int turn=0;    while(i<=j){        if(turn==0){            cout<<i<<" ";            i++;        }        else{            cout<<j<<" ";            j--;        }        turn=1-turn;    }}
