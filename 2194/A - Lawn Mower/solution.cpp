@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;typedef long long ll;int main() {	// your code goes here    int t;    cin>>t;    while(t--){        ll n,w;        cin>>n>>w;        ll div=n/w;        ll mod=n%w;        cout<<n-div<<endl;    }}
