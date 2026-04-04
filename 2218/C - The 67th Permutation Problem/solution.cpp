@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;typedef long long ll;ll MOD = 998244353;int main(){    ll t;    cin >> t;    while(t--){        ll n;        cin>>n;        ll j=3*n;        ll i=1;        while(i<=j){            cout<<i<<" "<<j<<" "<<(j-1)<<" ";            i++;            j-=2;        }        cout<<endl;    }}
